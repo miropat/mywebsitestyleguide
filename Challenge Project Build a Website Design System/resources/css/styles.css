@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Comforter', cursive;
+}
+h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation li{
+    background-color:#F25E7A;
+    color: white;
+    display: inline;
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+/*colors section*/
+
+.colors h2 {
+margin-top: 50px;
+}
+
+.single-color {
+    display: inline-block;
+    min-height: 100px;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: white;
+    position: static;
+}
+.colors-part {
+    display: flex;
+    text-align:center;
+    border: 1px solid #403E3F;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+}
+
+#red {
+background-color: #F20519;
+}
+
+#pink {
+background-color: #F25E7A;
+}
+#darkgrey {
+    background-color: #403E3F;
+}
+#lightred {
+    background-color: #F24141;
+}
+#black {
+    background-color: #0D0D0D;
+}
+/*fonts section*/
+/*font-family: 'Comforter', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Outfit', sans-serif;*/
+
+.fonts-part {
+    display: inline-block;
+    text-align:center;
+    border: 1px solid #403E3F;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    padding: 10px;
+    background-color: #403E3F ;
+    color: white;
+}
+
+.fonts-heading {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 40px;
+}
+.single-font {
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#comforter {
+    font-family: 'Comforter', cursive;
+}
+#comforter-brush {
+    font-family: 'Comforter Brush', cursive;
+}
+#outfit {
+    font-family: 'Outfit', sans-serif;
+}
+
+/*text-styles section*/
+/*font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+.styles {
+    text-decoration: none;
+    color: black;
+}
+
+.textstyles-part {
+    display: inline-block;
+    text-align:center;
+    border: 1px solid #403E3F;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+ul {
+    color: black;
+    text-align: left;
+}
+
+#main {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+#sub {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
